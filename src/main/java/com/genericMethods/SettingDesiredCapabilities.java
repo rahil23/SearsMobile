@@ -28,7 +28,7 @@ public class SettingDesiredCapabilities extends AppiumServerStartStop {
 		cap.setCapability("platformVersion", ReadPropertiesfile.getConfigProperties("PLATFORMVERSION"));
 		cap.setCapability("platformName",ReadPropertiesfile.getConfigProperties("PLATFORMNAME"));
 		cap.setCapability("deviceName", ReadPropertiesfile.getConfigProperties("DEVICENAME"));
-cap.setCapability("app",".\\APKFiles\\Sears_10.3.apk" );
+//cap.setCapability("app",".\\APKFiles\\Sears_10.3.apk" );
 		
 		cap.setCapability("appPackage", ReadPropertiesfile.getConfigProperties("APPPACKAGE"));
 cap.setCapability("appActivity", ReadPropertiesfile.getConfigProperties("APPACTIVITY"));
