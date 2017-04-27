@@ -13,7 +13,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 
 
-public class SettingDesiredCapabilities extends AppiumServerStartStop {
+public class SettingDesiredCapabilities {
 	public AndroidDriver driver;
 	
 	DesiredCapabilities cap;	

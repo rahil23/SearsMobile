@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Script.HomePage">
+      <class name="com.Script.CartPage">
         <methods>
           <include name="openApp"/>
-          <include name="startserver"/>
-          <include name="clk_SigninLink"/>
+          <include name="closeApp"/>
+          <include name="quantitySelect"/>
         </methods>
-      </class> <!-- com.Script.HomePage -->
+      </class> <!-- com.Script.CartPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
